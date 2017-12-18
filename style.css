@@ -1,0 +1,81 @@
+:root {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  height: 55px;
+  background-color: #3c6799;
+  box-shadow: 1px 0 6px rgb(85, 85, 85);
+}
+
+.notification {
+  color: white;
+  background-color: rgb(157, 179, 204);
+}
+
+main {
+  height: 100%;
+  background-color: #bcccde;
+}
+
+.list-modules {
+  width: 200px;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.38);
+}
+
+.list-modules-minimize {
+}
+
+.list-modules-minimize a:hover {
+  color: #3c6799;
+  background-color: #3c679923;
+}
+
+.list-modules-minimize a:focus {
+  color: #3c6799;
+  background-color: #3c679923;
+  outline: none;
+}
+
+/* .list-modules-element {
+  border-bottom: 1px solid #3c679923;
+}
+
+.list-modules-element:first-child {
+  border-top: 1px solid #3c679923;
+} */
+
+.list-modules-element a:hover {
+  color: #3c6799;
+  background-color: #3c679923;
+}
+
+.list-modules-element a:focus {
+  color: #3c6799;
+  background-color: #3c679923;
+  outline: none;
+}
+
+.list-modules-element a:active {
+  color: #3c6799;
+  background-color: #3c679923;
+}
+
+footer {
+  background-color: #3c6799;
+  height: 30px;
+  border-top: 1px solid rgb(174, 174, 174);  
+}
